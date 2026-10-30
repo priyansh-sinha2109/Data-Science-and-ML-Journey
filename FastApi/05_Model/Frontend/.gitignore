@@ -1,0 +1,16 @@
+# Ignore a single specific file
+secret_config.json
+
+# Ignore all files ending in .log
+*.log
+
+# Ignore an entire directory (must end with a slash)
+node_modules/
+build/
+
+# Ignore all .pdf files inside a specific directory
+docs/*.pdf
+
+# Exception: Ignore all .txt files EXCEPT notes.txt
+*.txt
+!notes.txt
